@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<title>Currículum - Arturo Daniel Meixueiro Cruz</title>
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet"/>
+<link href="css/styles.css" rel="stylesheet"/>
+<style>
+body{background-image:url('assets/fondo.jpg');background-size:cover;background-position:center;background-attachment:fixed;}
+.btn-pink{background-color:#e21e80;color:white;transition:background-color 0.3s ease,transform 0.3s ease,box-shadow 0.3s ease;border:none;text-transform:uppercase;}
+.btn-pink:hover{background-color:#f5429a;transform:translateY(-5px);box-shadow:0 10px 20px rgba(226,30,128,0.4);color:white;}
+.btn-blue{background-color:#1e30f3;color:white;transition:background-color 0.3s ease,transform 0.3s ease,box-shadow 0.3s ease;border:none;text-transform:uppercase;}
+.btn-blue:hover{background-color:#4d5cff;transform:translateY(-5px);box-shadow:0 10px 20px rgba(30,48,243,0.4);color:white;}
+.fs-modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background-image:url('assets/logos.jpg');background-size:cover;background-position:center;z-index:1050;overflow-y:auto;}
+.fs-modal.active{display:block;animation:fadeIn 0.3s ease;}
+.fs-modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.8);z-index:1051;}
+.fs-modal-content{position:relative;z-index:1052;color:white;padding:50px;max-width:800px;margin:10% auto;text-align:center;}
+.fs-modal-close{position:absolute;top:30px;right:30px;z-index:1053;background:transparent;border:none;cursor:pointer;transition:transform 0.3s ease;}
+.fs-modal-close:hover{transform:scale(1.1);}
+.arrow-img{width:60px;height:60px;object-fit:cover;clip-path:polygon(40% 0%,40% 20%,100% 20%,100% 80%,40% 80%,40% 100%,0% 50%);}
+@keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+</style>
+</head>
+<body class="d-flex flex-column h-100">
+<main class="flex-shrink-0">
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+<div class="container px-5">
+<a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Portafolio</span></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+<li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+<li class="nav-item"><a class="nav-link" href="resume.html">Currículum</a></li>
+<li class="nav-item"><a class="nav-link" href="projects.html">Proyectos</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="container d-flex justify-content-center align-items-center" style="min-height:70vh;gap:30px;">
+<button class="btn btn-pink btn-lg px-5 py-4 rounded-pill fw-bolder fs-5" data-modal-target="#modal-lenguajes">lenguajes que domino</button>
+<button class="btn btn-blue btn-lg px-5 py-4 rounded-pill fw-bolder fs-5" data-modal-target="#modal-softskills">softskills</button>
+</div>
+</main>
+<div id="modal-lenguajes" class="fs-modal">
+<div class="fs-modal-overlay"></div>
+<button class="fs-modal-close" data-modal-close><img class="arrow-img" src="assets/flecha.jpg" alt="Cerrar"/></button>
+<div class="fs-modal-content">
+<h2 class="display-4 fw-bolder mb-5 text-white">Lenguajes que domino</h2>
+<ul class="list-unstyled fs-4 text-start d-inline-block">
+<li class="mb-4"><strong>HTML/HTML5:</strong> Estructuración semántica y creación de cimientos sólidos para interfaces web modernas.</li>
+<li class="mb-4"><strong>JAVA:</strong> Desarrollo de lógica de programación orientada a objetos para resolver problemas complejos.</li>
+<li class="mb-4"><strong>PYTHON:</strong> Versatilidad en el manejo de scripts y soporte en el backend para enriquecer la dinámica de las páginas.</li>
+<li class="mb-4"><strong>Bases de Datos:</strong> Diseño, administración y optimización de estructuras de datos para garantizar la persistencia y velocidad en entornos web.</li>
+</ul>
+</div>
+</div>
+<div id="modal-softskills" class="fs-modal">
+<div class="fs-modal-overlay"></div>
+<button class="fs-modal-close" data-modal-close><img class="arrow-img" src="assets/flecha.jpg" alt="Cerrar"/></button>
+<div class="fs-modal-content">
+<h2 class="display-4 fw-bolder mb-5 text-white">Soft Skills</h2>
+<ul class="list-unstyled fs-4 text-start d-inline-block">
+<li class="mb-4"><strong>Sinergia de Equipo:</strong> Excelente disposición para colaborar, integrar perspectivas y lograr objetivos comunes en proyectos multidisciplinarios.</li>
+<li class="mb-4"><strong>Fidelidad Visual:</strong> Ojo crítico y precisión para replicar estilos y maquetas, garantizando que el diseño original cobre vida en el navegador.</li>
+<li class="mb-4"><strong>Implementación de IA:</strong> Habilidad para incorporar y aprovechar herramientas de inteligencia artificial que agilizan flujos de trabajo y potencian soluciones.</li>
+<li class="mb-4"><strong>Ejecución Meticulosa:</strong> Altamente capaz de seguir requerimientos y directrices al pie de la letra, asegurando altos estándares de calidad sin perder el enfoque.</li>
+</ul>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/dynamic-components.js"></script>
+</body>
+</html>
