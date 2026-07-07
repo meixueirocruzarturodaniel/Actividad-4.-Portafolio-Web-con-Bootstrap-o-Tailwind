@@ -31,40 +31,37 @@
   <p>07 DE JULIO DEL 2026</p>
 </div>
 
-# Portafolio Personal - Start Bootstrap Personal
+# Portafolio Personal 
 
-**Nombre del Proyecto:** Portafolio Profesional Personal  
-**Descripción breve:** Sitio web tipo portafolio completamente personalizado basado en la plantilla **Personal** de Start Bootstrap.
+La actividad pide tomar una plantilla de portafolio y modificarlo a nuestra forma para mostrar nuestra informacion, generar un curriculum que se pueda visualizar a travez de este portafolio con nuestros proyectos y lenguajes que conocemos asi como breves descripciones nuestras
 
 ## Descripción del Proyecto
 
-Este portafolio fue desarrollado utilizando la plantilla **Personal** de Start Bootstrap. El framework CSS utilizado es **Bootstrap 5.2.3**, el cual permite un diseño moderno, responsive y profesional.
+Este portafolio fue desarrollado utilizando la plantilla PERSONAL de Start Bootstrap. El framework CSS utilizado es Bootstrap, el cual permite un diseño moderno, responsive y profesional.
 
 ### Secciones del Portafolio:
-- **Inicio**: Hero section con foto de perfil y acceso rápido.
-- **Currículum**: Información académica y habilidades mediante modales dinámicos.
-- **Proyectos**: Galería con carruseles de imágenes.
-- **Contacto**: Formulario interactivo con SweetAlert2.
+- Inicio: La portada del portafolio, con algo de informacion mia
+- Currículum: Incluye los lenguajes que domino (por asi decirlo) y mis softskills
+- Proyectos: Los proyectos a desarrollar (son 2 puesto que aun no me he decidido aaaa).
+- Contacto: Formulario con uso de sweet alerts para evitar el uso de esas feas pantallas de arriba.
 
 **Enlace de la plantilla original:**  
 [https://startbootstrap.com/previews/personal](https://startbootstrap.com/previews/personal)
 
----
 
 ## Proceso de Creación
 
 ### 1. Página de Inicio
 **Antes:**  
-Contenido genérico con texto “Start Bootstrap”, foto placeholder y descripción de marketing.  
+Contenido genérico con texto Start Bootstrap, foto placeholder y descripción de marketing. (olia a millas que es una planilla) 
 ![Inicio - Antes](img/antes-inicio.png)
 
 **Después:**  
-Se personalizó el nombre, título, badge, foto de perfil (`profile.jpg`) y descripción propia.  
+Se personalizó el nombre, título, badge, foto de perfil y descripción propia.  
 ![Inicio - Después](img/despues-inicio.png)
 
-**Modificaciones:** Cambio de textos, reemplazo de imagen y ajuste del hero section.
+**Modificaciones:** Cambio de textos, reemplazo de imagen
 
----
 
 ### 2. Sección de Currículum
 **Antes:**  
@@ -72,25 +69,23 @@ Tarjetas tradicionales de experiencia y educación con texto lorem ipsum.
 ![Currículum - Antes](img/antes-curriculum.png)
 
 **Después:**  
-Reemplazado por botones grandes que abren **modales dinámicos** mostrando lenguajes de programación y soft skills.  
+Reemplazado por botones grandes que abren modales dinámicos mostrando lenguajes de programación y soft skills.  
 ![Currículum - Después](img/despues-curriculum.png)
 
-**Modificaciones:** Eliminación de contenido estático y creación de `DynamicModal` con estilos personalizados y fondo.
+**Modificaciones:** Eliminación de contenido estático y creación de un js para todos los componentes visuales que quiera utilizar con estilos personalizados y fondo.
 
----
 
 ### 3. Sección de Proyectos
 **Antes:**  
-Dos tarjetas simples con imágenes dummy y texto placeholder.  
+Dos tarjetas simples con imágenes x y texto placeholder.  
 ![Proyectos - Antes](img/antes-proyectos.png)
 
 **Después:**  
 Proyectos reales (`GUSTAMBO-PEDIA` y `GASTOMETRO.COM`) con carruseles de imágenes y fondo personalizado.  
 ![Proyectos - Después](img/despues-proyectos.png)
 
-**Modificaciones:** Añadido carrusel Bootstrap (`DynamicCarousel`), imágenes propias y estilos adicionales.
+**Modificaciones:** Añadido carrusel Bootstrap, imágenes propias y estilos adicionales.
 
----
 
 ### 4. Sección de Contacto
 **Antes:**  
@@ -98,21 +93,20 @@ Formulario básico con mensajes de éxito/error genéricos.
 ![Contacto - Antes](img/antes-contacto.png)
 
 **Después:**  
-Formulario en español con validación y mensajes atractivos usando **SweetAlert2**.  
+Formulario en español con validación y mensajes usando SweetAlert.  
 ![Contacto - Después](img/despues-contacto.png)
 
-**Modificaciones:** Integración de SweetAlert2, validación en JavaScript y mensajes personalizados.
+**Modificaciones:** Integración de SweetAlert, validación en JavaScript y mensajes personalizados.
 
----
+
 
 ### Modificaciones Técnicas Generales
-- Cambio completo del idioma a **español**.
-- Actualización de la navbar con branding propio.
-- Creación del archivo `dynamic-components.js` con clases `DynamicModal`, `DynamicTooltip` y `DynamicCarousel`.
+- Cambio completo del idioma a español.
+- Actualización de la barra de navegacion a uno acorde a lo que quiero presentar.
+- Creación del archivo dynamic-components.js con clases DynamicModal, DynamicTooltip y DynamicCarousel.
 - Añadidos fondos personalizados y efectos hover.
-- Optimización de estilos adicionales en `styles.css`.
+- Optimización de estilos adicionales en styles.css.
 
----
 
 ## Capturas de Pantalla
 
@@ -121,6 +115,7 @@ Formulario en español con validación y mensajes atractivos usando **SweetAlert
 
 2. **Currículum con Modales**  
    ![Currículum](img/02-curriculum.png)
+![El otro modal](img/05-modal-lenguajes.png)
 
 3. **Proyectos con Carruseles**  
    ![Proyectos](img/03-proyectos.png)
@@ -128,12 +123,6 @@ Formulario en español con validación y mensajes atractivos usando **SweetAlert
 4. **Formulario de Contacto**  
    ![Contacto](img/04-contacto.png)
 
-5. **Modal de Lenguajes**  
-   ![Modal Lenguajes](img/05-modal-lenguajes.png)
 
----
 
-**Conclusión**
-
-La personalización de esta plantilla permitió transformar un diseño genérico en un portafolio único, interactivo y representativo de mis habilidades. El uso de componentes dinámicos (modales y carruseles) mejora la experiencia del usuario y demuestra un buen manejo de JavaScript junto con Bootstrap.
 
